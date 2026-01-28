@@ -6,7 +6,7 @@ function categories_jelzvonal_38(feature, value, size, resolution, labelText,
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case '1':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(174,203,54,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.028}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.787999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -14,7 +14,7 @@ function categories_jelzvonal_38(feature, value, size, resolution, labelText,
                     break;
 case '2':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(163,163,163,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.028}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.787999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -22,7 +22,7 @@ case '2':
                     break;
 case '3':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(51,145,109,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.028}),
+        stroke: new ol.style.Stroke({color: 'rgba(0,0,0,1.0)', lineDash: null, lineCap: 'square', lineJoin: 'bevel', width: 4.787999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
